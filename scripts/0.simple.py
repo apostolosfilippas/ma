@@ -6,6 +6,9 @@
 #               outside the class without my permission.
 ###########################################################
 
+# Before you begin: Update your course files and Python environment safely.
+# https://github.com/apostolosfilippas/ma/blob/main/BEFORE_YOU_BEGIN.md
+
 # This is the first script for this class
 # You are supposed to download, open and run it!
 print("Never pay more than 20 bucks for a computer game 🐒")
