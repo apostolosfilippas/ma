@@ -7,7 +7,7 @@
 ###########################################################
 
 # Before you begin: Update your course files and Python environment safely.
-# https://github.com/apostolosfilippas/ma/blob/main/BEFORE_YOU_BEGIN.md
+# https://github.com/apostolosfilippas/ma/blob/main/assets/before-you-begin.md
 
 # This is the first script for this class
 # You are supposed to download, open and run it!
