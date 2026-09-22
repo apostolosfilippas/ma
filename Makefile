@@ -106,8 +106,8 @@ run-notebooks: ## Run all Jupyter notebooks from clean slate, stop on any error
 	              scripts/02.dataframes.ipynb \
 	              scripts/03.visualization.ipynb \
 	              scripts/07.randomization.ipynb \
-	              scripts/08.experiments.ipynb \
-	              scripts/09.experiments-advanced.ipynb; do \
+	              scripts/08.1.experiments.ipynb \
+	              scripts/08.2.experiments-advanced.ipynb; do \
 		echo ""; \
 		echo "🚀 Running $$notebook..."; \
 		uv run jupyter nbconvert --to notebook --execute --inplace "$$notebook" || { echo "❌ Error in $$notebook - stopping execution"; exit 1; }; \

@@ -56,8 +56,8 @@ This will:
 | 2 | **DataFrames & Analysis** | `02.dataframes.ipynb` | pandas, data manipulation, method chaining |
 | 3 | **Data Visualization** | `03.visualization.ipynb` | matplotlib, seaborn, statistical plots |
 | 7 | **Randomized Assignment** | `07.randomization.ipynb` | A/B testing, balance tests |
-| 8 | **Experiment Analysis** | `08.experiments.ipynb` | Treatment effects, statistical significance |
-| 9 | **Statistical Foundations** | `09.experiments-advanced.ipynb` | Law of Large Numbers, Central Limit Theorem |
+| 8.1 | **Experiment Analysis** | `08.1.experiments.ipynb` | Treatment effects, statistical significance |
+| 8.2 | **Statistical Foundations** | `08.2.experiments-advanced.ipynb` | Law of Large Numbers, Central Limit Theorem |
 
 
 ## Quick Reference
