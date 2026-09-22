@@ -55,9 +55,6 @@ This will:
 | 1 | **Python Fundamentals** | `1.introduction.ipynb` | Variables, data types, basic operations |
 | 2 | **DataFrames & Analysis** | `2.dataframes.ipynb` | pandas, data manipulation, method chaining |
 | 3 | **Data Visualization** | `3.visualization.ipynb` | matplotlib, seaborn, statistical plots |
-| 4 | **Combining Data** | `4.combining.ipynb` | Merging, joining, concatenating datasets |
-| 5 | **Time Series Analysis** | `5.inflation.ipynb` | Reputation inflation, trend analysis |
-| 6 | **Pricing Behavior** | `6.pricing.ipynb` | Market dynamics, pricing patterns |
 | 7 | **Randomized Assignment** | `7.randomization.ipynb` | A/B testing, balance tests |
 | 8 | **Experiment Analysis** | `8.experiments.ipynb` | Treatment effects, statistical significance |
 | 9 | **Statistical Foundations** | `9.experiments-advanced.ipynb` | Law of Large Numbers, Central Limit Theorem |

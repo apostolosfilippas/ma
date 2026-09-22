@@ -113,9 +113,6 @@ run-notebooks: ## Run all Jupyter notebooks from clean slate, stop on any error
 	for notebook in scripts/1.introduction.ipynb \
 	              scripts/2.dataframes.ipynb \
 	              scripts/3.visualization.ipynb \
-	              scripts/4.combining.ipynb \
-	              scripts/5.inflation.ipynb \
-	              scripts/6.pricing.ipynb \
 	              scripts/7.randomization.ipynb \
 	              scripts/8.experiments.ipynb \
 	              scripts/9.experiments-advanced.ipynb; do \
