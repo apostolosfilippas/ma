@@ -88,15 +88,7 @@ run-scripts: ## Run all Python scripts from clean slate, stop on any error
 	@make clean-temp
 	@echo "🐍 Running all Python scripts in order with error checking..."
 	@set -e; \
-	for script in scripts/0.simple.py \
-	              scripts/2.dataframes.py \
-	              scripts/3.visualization.py \
-	              scripts/4.combining.py \
-	              scripts/5.inflation.py \
-	              scripts/6.pricing.py \
-	              scripts/7.randomization.py \
-	              scripts/8.experiments.py \
-	              scripts/9.experiments-advanced.py; do \
+	for script in scripts/00.simple.py; do \
 		echo ""; \
 		echo "🚀 Running $$script..."; \
 		uv run python $$script || { echo "❌ Error in $$script - stopping execution"; exit 1; }; \
@@ -110,12 +102,12 @@ run-notebooks: ## Run all Jupyter notebooks from clean slate, stop on any error
 	@make clean-temp
 	@echo "📓 Running all Jupyter notebooks in order with error checking..."
 	@set -e; \
-	for notebook in scripts/1.introduction.ipynb \
-	              scripts/2.dataframes.ipynb \
-	              scripts/3.visualization.ipynb \
-	              scripts/7.randomization.ipynb \
-	              scripts/8.experiments.ipynb \
-	              scripts/9.experiments-advanced.ipynb; do \
+	for notebook in scripts/01.introduction.ipynb \
+	              scripts/02.dataframes.ipynb \
+	              scripts/03.visualization.ipynb \
+	              scripts/07.randomization.ipynb \
+	              scripts/08.experiments.ipynb \
+	              scripts/09.experiments-advanced.ipynb; do \
 		echo ""; \
 		echo "🚀 Running $$notebook..."; \
 		uv run jupyter nbconvert --to notebook --execute --inplace "$$notebook" || { echo "❌ Error in $$notebook - stopping execution"; exit 1; }; \

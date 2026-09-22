@@ -51,13 +51,13 @@ This will:
 
 | Class | Topic | Script | Key Concepts |
 |-------|-------|--------|--------------|
-| 0 | **Getting Started** | `0.simple.ipynb` | Variables, data types, basic operations |
-| 1 | **Python Fundamentals** | `1.introduction.ipynb` | Variables, data types, basic operations |
-| 2 | **DataFrames & Analysis** | `2.dataframes.ipynb` | pandas, data manipulation, method chaining |
-| 3 | **Data Visualization** | `3.visualization.ipynb` | matplotlib, seaborn, statistical plots |
-| 7 | **Randomized Assignment** | `7.randomization.ipynb` | A/B testing, balance tests |
-| 8 | **Experiment Analysis** | `8.experiments.ipynb` | Treatment effects, statistical significance |
-| 9 | **Statistical Foundations** | `9.experiments-advanced.ipynb` | Law of Large Numbers, Central Limit Theorem |
+| 0 | **Getting Started** | `00.simple.ipynb` | Variables, data types, basic operations |
+| 1 | **Python Fundamentals** | `01.introduction.ipynb` | Variables, data types, basic operations |
+| 2 | **DataFrames & Analysis** | `02.dataframes.ipynb` | pandas, data manipulation, method chaining |
+| 3 | **Data Visualization** | `03.visualization.ipynb` | matplotlib, seaborn, statistical plots |
+| 7 | **Randomized Assignment** | `07.randomization.ipynb` | A/B testing, balance tests |
+| 8 | **Experiment Analysis** | `08.experiments.ipynb` | Treatment effects, statistical significance |
+| 9 | **Statistical Foundations** | `09.experiments-advanced.ipynb` | Law of Large Numbers, Central Limit Theorem |
 
 
 ## Quick Reference
@@ -78,7 +78,7 @@ make add PKG=package-name
 make remove PKG=package-name
 
 # Run a Python script
-make run SCRIPT=scripts/0.simple.py
+make run SCRIPT=scripts/00.simple.py
 
 # Start Jupyter notebook
 make jupyter
@@ -91,7 +91,7 @@ make help
 
 ```bash
 # Run a script
-uv run python scripts/0.simple.py
+uv run python scripts/00.simple.py
 
 # Open Python REPL
 uv run python

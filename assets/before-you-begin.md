@@ -47,7 +47,7 @@ This installs the package versions required by the course.
 **Python script (`.py`):** In VS Code's Command Palette, choose **Python: Select Interpreter**, select the course's `.venv`, then click **Run Python File**. For example, you can also run the first script from a terminal inside `ma`:
 
 ```sh
-uv run python scripts/0.simple.py
+uv run python scripts/00.simple.py
 ```
 
 ## If something does not work
